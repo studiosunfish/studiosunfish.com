@@ -20,13 +20,13 @@
 9. Our Team
 10. Counters
 11. Services
-12. Testimonials Wrapper 
+12. Testimonials Wrapper
 13. Portfolio
 14. Blog
 15. Pricing Table
 16. Contact Us
 17. Footer
-18. Media Quries 
+18. Media Quries
 
 /*
 ================================================
@@ -69,7 +69,7 @@ h6 {
 a, a:hover, a:active, a:focus {
 	outline: none;
 	border: none;
-	font-family:Montserrat,sans-serif;	
+	font-family:Montserrat,sans-serif;
 }
 a {
 	color: #666666;
@@ -306,7 +306,7 @@ a.slide-btn:hover {
 	background-attachment: fixed!important
 }
 .slide-1, .text-slide {
-	background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=1100%C3%97860&w1100&h=860);
+	background: url(../images/underwater_1.jpeg);
 	background-size: cover
 }
 .slide-2 {
@@ -391,7 +391,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 	left: 30px;
 	transition: .25s;
 	-webkit-transition: .25s;
-	border:1px solid #fff;	
+	border:1px solid #fff;
 }
 .featured-area {
 	overflow: hidden
@@ -597,7 +597,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
   overflow: hidden;
   box-shadow: 0 2px 0px 0px #e8ecec;
   border-radius: 5px;
-  transition: all 0.3s ease 0s;  
+  transition: all 0.3s ease 0s;
 }
 .team-cnt .member-img > a > img {
   border-radius: 50%;
@@ -615,7 +615,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 	}
 .single-member:hover {
   box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
-}	
+}
 /* Social Icons */
 .social-icons__item .fa {
   font-size: 15px;
@@ -646,7 +646,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 }
 .social-icons .social-icons__item i.fa-pinterest:hover {
   background-color: #cc2222;
-}	
+}
 /*
 ================================================
 10. Counters
@@ -820,7 +820,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 }
 /*
 ================================================
-12. Testimonials Wrapper 
+12. Testimonials Wrapper
 ================================================
 */
 .testimonials-wrapper:before {
@@ -842,7 +842,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 	background: rgba(0, 0, 0, 0) url("https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=2000%C3%971333&w2000&h=1333") no-repeat fixed left top;
 	z-index: 9;
     position: relative;
-    text-align: center;	
+    text-align: center;
 }
 .testimonials-wrapper blockquote {
 	border-left: none;
@@ -1024,7 +1024,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 	cursor: pointer;
 	position: relative;
     border-style: solid;
-    border-width: 1px 0;	
+    border-width: 1px 0;
 }
 .portfolio-filter li:after {
 	position: absolute;
@@ -1244,7 +1244,7 @@ a.welcome-control:focus, a.welcome-control:hover i {
 }
 .single-contact {
     text-align: center;
-  	padding: 15px 0;	
+  	padding: 15px 0;
 }
 .single-contact h4 {
     color: #333;
@@ -1332,7 +1332,7 @@ footer p {
 
 /*
 ================================================
-18. Media Quries 
+18. Media Quries
 ================================================
 */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1398,7 +1398,7 @@ section h2 {
 .navbar-toggle {
 	margin-right: 0;
 	margin-top: -34px;
-	border:none;	
+	border:none;
 	}
 .menu-bg .navbar-collapse, .navbar-collapse {
   background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
