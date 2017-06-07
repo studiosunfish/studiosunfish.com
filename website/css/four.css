@@ -1,0 +1,159 @@
+/*
+================================================
+Common CSS
+================================================
+*/
+.heading-line:before {
+	background: #069a97;	
+	}
+.heading-line:after {
+	background: #069a97;
+}	
+.heading-line {
+	border-bottom: 1px solid #069a97;
+	}
+#switcher .theme-click {
+    background-color: #069a97;
+}	
+section h2:after {
+  border-bottom: 4px double #069a97;
+}
+/*
+================================================
+Scroll top Arrow
+================================================
+*/
+#scrollUp i:hover {
+	color: #069a97;
+}
+/*
+================================================
+Navigation
+================================================
+*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #069a97;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #069a97;
+}
+.menu-bg .logo a, .menu-bg .navbar-default .navbar-nav li a:hover {
+  color: #069a97;
+}
+/*
+================================================
+Banner Content
+================================================
+*/
+a.slide-btn {
+	background: #069a97;
+}
+/*
+================================================
+Our Team
+================================================
+*/
+.team-cnt .member-info h5 a {
+	color:#069a97;
+	}
+/*
+================================================
+About Us
+================================================
+*/
+.progress-area {
+	background: #f9f9f9;
+}
+.skills .progress .progress-bar {
+	background-color: #069a97;
+}
+/*
+================================================
+Services
+================================================
+*/
+.single-service .service-bar:before,
+.single-service .service-bar:after {
+    background-color: #069a97;
+}
+.single-service:before,
+.single-service:after {
+    background-color: #069a97;
+}
+.single-service .service-icon {
+    box-shadow: 0 0 0 8px #fff inset, 0 0 5px 0 rgba(6, 154, 151, 0.24);
+    color: #069a97;
+}
+/*
+================================================
+Testimonials Wrapper 
+================================================
+*/	
+.testimonials-wrapper p:before {
+	color:#069a97;	
+}
+.testimonials-wrapper p:after {
+	color:#069a97;
+}
+.testimonials-wrapper h3 span {
+	color:#069a97;
+}
+.testimonials-wrapper .carousel-indicators li {
+	border: 2px solid #069a97;
+}
+.testimonials-wrapper .carousel-indicators .active {
+	background-color: #069a97;
+}
+/*
+================================================
+Portfolio
+================================================
+*/
+.portfolio #filters ul li a:hover h5, .portfolio #filters ul li a.active h5 {
+	background-color: #069a97;
+}
+.work-info p {
+	color:#069a97;
+}
+.portfolio-filter li.active {
+	color:#069a97;
+	border-color:#069a97;	
+	}
+/*
+================================================
+Blog
+================================================
+*/
+.blog-wrapper .post-meta i {
+  color: #069a97;
+}
+.blog-wrapper a.blog-btn {
+  background: #069a97;
+}
+/*
+================================================
+Pricing Table
+================================================
+*/
+.pricing-table-wrapper .pricing-price {
+    background-color: #069a97;
+}
+.pricing-table-wrapper .btn-sm-one {
+  background-color: #069a97;
+  border: 1px solid #069a97;
+}
+/*
+================================================
+Contact us
+================================================
+*/
+.single-contact i {
+  background: #069a97;
+}
+.contact-form .btn-contact {
+    background-color: #069a97;
+    border: 1px solid #069a97;
+}
+footer {
+	background: #069a97;
+}
