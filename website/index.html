@@ -32,42 +32,45 @@
 <body>
 <!-- Pre Loader -->
 <div id="loader"></div>
-<!-- Header -->
-<header id="home" class="welcome-hero-area">
-  <div class="header-top-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <!-- START LOGO -->
-          <div class="logo"> <a href="index.html">Studio Sunfish</a> </div>
-          <!-- END LOGO -->
-        </div>
-        <div class="col-md-9">
-          <!-- START MAIN MENU -->
-          <nav class="navbar navbar-default">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <!-- Logo --> </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a class="smoth-scroll" href="#home">Home</a></li>
-                <li><a class="smoth-scroll" href="#aboutus">About Us</a></li>
-                <li><a class="smoth-scroll" href="#ourteam">Our Team</a></li>
-                <li><a class="smoth-scroll" href="#services">Services</a></li>
-                <li><a class="smoth-scroll" href="#testimonials">Testimonials</a></li>
-                <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
-                <li><a class="smoth-scroll" href="#contactus">Contact Us</a></li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-          </nav>
-          <!-- END MAIN MENU -->
-        </div>
+
+<!-- Nav bar -->
+<div class="header-top-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"> 
+        <!-- START LOGO -->
+        <div class="logo"> <a href="index.html">Studio Sunfish</a> </div>
+        <!-- END LOGO --> 
+      </div>
+      <div class="col-md-9"> 
+        <!-- START MAIN MENU -->
+        <nav class="navbar navbar-default"> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <!-- Logo --> </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a class="smoth-scroll" href="#home">Home</a></li>
+              <li><a class="smoth-scroll" href="#services">Services</a></li>
+              <li><a class="smoth-scroll" href="#ourteam">Our Team</a></li>
+              <li><a class="smoth-scroll" href="#testimonials">Testimonials</a></li>
+              <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="smoth-scroll" href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </nav>
+        <!-- END MAIN MENU --> 
       </div>
     </div>
   </div>
+</div>
+<!-- end nav bar -->
+
+<!-- Header -->
+<header id="home" class="welcome-hero-area">
   <!-- Start Slider Area -->
   <div class="home-slider-area">
     <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -506,12 +509,13 @@
 </section>
 <!-- Pricing Table Start -->
 <!-- Google Map Start -->
-<div class="google-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198710.35112897935!2d-98.51489117772236!3d38.904562823631146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1471865832140" allowfullscreen></iframe>
+<div class="google-map" >
+  <div class="google-map-overlay" onClick="style.pointerEvents='none'"></div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1612455.6255033596!2d-123.54436712380067!3d37.87602556649383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583a3a688d7b5%3A0x8c891b8457461fa9!2sSan+Francisco+Bay+Area%2C+CA!5e0!3m2!1sen!2sus!4v1496879936035" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <!-- Google Map end -->
 <!-- Contact Us Start -->
-<section id="contactus" class="contactus">
+<section id="contact" class="contactus">
   <div class="container">
     <div class="row">
       <div class="section-title">
