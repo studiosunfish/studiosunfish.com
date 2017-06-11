@@ -309,14 +309,14 @@ a.slide-btn:hover {
     background: url(../images/underwater_1.jpeg);
     background-size: cover
 }
-.slide-2 {
+/*.slide-2 {
     background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=1100%C3%97860&w1100&h=860);
     background-size: cover
 }
 .slide-3 {
     background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=1100%C3%97860&w1100&h=860);
     background-size: cover
-}
+}*/
 .single-slide-item {
     position: relative;
     z-index: 1
@@ -664,7 +664,7 @@ ul {
     z-index: -1;
 }
 .counters {
-    background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=2000%C3%971333&w2000&h=1333) no-repeat fixed left top;
+    background: url(../images/office.jpeg) no-repeat fixed center center;
     margin:0;
     padding:78px 0 76px;
     position: relative;
@@ -839,7 +839,7 @@ ul {
     float: left;
     background: #f7f7f7;
     padding: 70px 0 80px;
-    background: rgba(0, 0, 0, 0) url("https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=2000%C3%971333&w2000&h=1333") no-repeat fixed left top;
+    background: rgba(0, 0, 0, 0) url(../images/office.jpeg) no-repeat fixed center center;
     z-index: 9;
     position: relative;
     text-align: center;
