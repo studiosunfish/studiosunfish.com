@@ -20,7 +20,7 @@
 9. Our Team
 10. Counters
 11. Services
-12. Testimonials Wrapper
+12. Testimonials
 13. Portfolio
 14. Blog
 15. Pricing Table
@@ -913,6 +913,10 @@ ul {
 }
 .testimonials-wrapper .carousel-indicators {
     bottom: -30px;
+}
+
+#myCarousel {
+		height: 300px;
 }
 /*
 ================================================
