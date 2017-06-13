@@ -309,14 +309,6 @@ a.slide-btn:hover {
     background: url(../images/underwater_1.jpeg);
     background-size: cover
 }
-/*.slide-2 {
-    background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=1100%C3%97860&w1100&h=860);
-    background-size: cover
-}
-.slide-3 {
-    background: url(https://placeholdit.imgix.net/~text?txtsize=60&bg=333&txtclr=fff&txt=1100%C3%97860&w1100&h=860);
-    background-size: cover
-}*/
 .single-slide-item {
     position: relative;
     z-index: 1
@@ -425,6 +417,10 @@ a.welcome-control:focus, a.welcome-control:hover i {
 }
 .home-slider-area .carousel-indicators {
   display: none;
+}
+
+.banner-contact {
+  color: #33d685
 }
 /*
 ================================================
