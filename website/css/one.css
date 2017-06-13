@@ -4,17 +4,17 @@ Common CSS
 ================================================
 */
 .heading-line:before {
-	background: #33d685;	
+	background: #33d685;
 	}
 .heading-line:after {
 	background: #33d685;
-}	
+}
 .heading-line {
 	border-bottom: 1px solid #33d685;
 	}
 #switcher .theme-click {
     background-color: #33d685;
-}	
+}
 section h2:after {
   border-bottom: 4px double #33d685;
 }
@@ -86,11 +86,11 @@ Services
 }
 /*
 ================================================
-Testimonials Wrapper 
+Testimonials Wrapper
 ================================================
-*/	
+*/
 .testimonials-wrapper p:before {
-	color:#33d685;	
+	color:#33d685;
 }
 .testimonials-wrapper p:after {
 	color:#33d685;
@@ -117,7 +117,7 @@ Portfolio
 }
 .portfolio-filter li.active {
 	color:#33d685;
-	border-color:#33d685;	
+	border-color:#33d685;
 	}
 /*
 ================================================
