@@ -7,7 +7,7 @@
         Loader
         ------------------------------------------------------------------*/
         $("#loader").fadeOut("fast");
-        // map zooming 	 
+        // map zooming
         $('.google-map').on('click', function() {
             $('.google-map').find('iframe').css("pointer-events", "auto");
         });
@@ -92,9 +92,9 @@
 
 
     //======= MAGNIFIC POPUP ========//
-    $('.work a').magnificPopup({
-        type: 'inline'
-    });
+    // $('.work a').magnificPopup({
+    //     type: 'inline'
+    // });
     /*------------------------------------------------------------------
     Navigation Hover effect
     ------------------------------------------------------------------*/
@@ -120,7 +120,7 @@
     });
 
     /*------------------------------------------------------------------
-   	 Scrollup opacity downarrow 
+   	 Scrollup opacity downarrow
 	 ------------------------------------------------------------------*/
     var bottom_arrow = $('.bottom_row, .banner-content');
     $(window).on('scroll', function() {
@@ -129,5 +129,5 @@
             'opacity': (1 - (st / 350))
         });
     });
-    
+
 })(jQuery);
