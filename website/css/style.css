@@ -597,13 +597,8 @@ ul {
 }
 .team-cnt .member-img > a > img {
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
-}
-.team-cnt .member-img > a > img {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
 }
 .team-cnt .member-info h6 {
     color:#333;
