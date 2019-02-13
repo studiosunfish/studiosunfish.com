@@ -197,7 +197,19 @@ section {
     text-transform:uppercase;
 }
 .logo {
-    padding-top: 29px
+    padding-top: 29px;
+    padding-bottom: 10px;
+}
+
+.navbar-logo {
+    height: 42px;
+    margin-right: 5px;
+}
+
+.hero-logo {
+    height: 150px;
+    width: auto;
+    margin-bottom: 40px;
 }
 /*
 ================================================
@@ -210,6 +222,7 @@ section {
 }
 .menu-bg .logo {
   padding-top: 18px;
+  padding-bottom: 10px;
   transition: all 0.3s ease 0s;
 }
 .navbar-default {
